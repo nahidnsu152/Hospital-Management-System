@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patients Investigation Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body class="a">                            
+		<div class="main">
+			<div class="header">
+				<a href="pat_investigation.html"><img src="12.jpg"/></a></div>
+					
+			<div class="mainmenu">
+				<ul>
+					<li ><a href="home.html">Home </a></li>
+					<li><a href="specialists.html">Specialist</a></li> 
+					<li><a href="PatientsCare.html">Patient Care </a></li>
+					<li><a href="staffaccount.html">Staff Account</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contuct Us</a></li>
+				</ul>
+			</div>
+
+			<div class="a">
+                <h2><br/>Patients Initial Investigation Form</h2>
+                <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+
+                    <p>
+                    <label>Patiend ID:
+                    <input type="tel" name="pat_id" placeholder="Insert Patient ID" required>
+                    </label>
+                    </p>
+
+
+                    <h3><br/>Patient Personal Info</h3>    
+                    <p>
+                            <label>Height:  
+                            <input type="tel" name="height" placeholder="Enter height" required>
+                            </label> 
+
+                            <label>Weight: 
+                            <input type="tel" name="weight" placeholder="Enter weight" required>
+                            </label> 
+
+                    </p>
+
+
+                    <h3><br/>Symptoms of Disease</h3>   
+                        <p>
+                            <label>1:
+                            <input type="text" name="disease_1" placeholder="Disease" required>
+                            </label>
+                            <label>2:
+                            <input type="text" name="disease_2" >
+                            </label>
+                            <label>3:
+                            <input type="text" name="disease_3" >
+                            </label>
+                            <label>4:
+                            <input type="text" name="disease_4" >
+                            </label>
+                            <label>5:
+                            <input type="text" name="disease_5" >
+                            </label>
+                            <label>6:
+                            <input type="text" name="disease_6" >
+                            </label>
+                        </p>
+
+                        <h3><br/>Blood Pressure:</h3>    
+                        <p>
+                                <label>Upper:  
+                                <input type="tel" name="upper"  required>
+                                </label> 
+    
+                                <label>Lower: 
+                                <input type="tel" name="lower"  required>
+                                </label> 
+    
+                        </p>
+                        <h3><br/>General Food Habbit</h3>   
+                        <p>
+                            <label>Breakfast 1:
+                            <input type="text" name="breakf_1"  required>
+                            </label>
+                            <label><t/>2:
+                            <input type="text" name="breakf_2" >
+                            </label>
+                            <label>          3:
+                            <input type="text" name="breakf_3" >
+                            </label>
+                            <label><br/>Lunch 1:
+                            <input type="text" name="lunch_1"  required>
+                            </label>
+                            <label>      2:
+                            <input type="text" name="lunch_2" >
+                            </label>
+                            <label>      3:
+                            <input type="text" name="lunch_3" >
+                            </label>
+                            <label><br/>Dinner 1:
+                            <input type="text" name="dinner_1"  required>
+                            </label>
+                            <label>       2:
+                            <input type="text" name="dinner_2" >
+                            </label>
+                            <label>       3:
+                            <input type="text" name="dinner_3" >
+                            </label>    
+                    
+                        </p>
+
+                        <h3><br/>Hobby</h3>  
+                        <fieldset>
+                        <legend>Game:</legend>
+                        <p> <label class="choice"> <input type="checkbox" name="game"  value="football">Foot ball</label>
+                            <label class="choice"> <input type="checkbox" name="game"  value="hockey">Hockey</label>
+                            <label class="choice"> <input type="checkbox" name="game"  value="cricket">Cricket</label>
+                            <label class="choice"> <input type="checkbox" name="game"  value="chess">Chess</label>
+                            <label class="choice"> <input type="checkbox" name="game"  value="all">All</label>
+                            <label class="choice"> <input type="checkbox" name="game"  value="none">None</label></p>
+                        </fieldset>
+
+                        <fieldset>
+                        <legend>Others:</legend>
+                        <p><label class="choice"> <input type="radio" name="others" required value="tourism"> Tourism </label></p>
+                        <p><label class="choice"> <input type="radio" name="others" required value="writing"> Writing</label></p>
+                        </fieldset>
+                 
+                      
+                        <br/><br/>
+                    <p>
+                    <label>Disease Name:
+                    <input type="text" name="disease" required>
+                    </label>
+                    </p>
+                    
+                    <br/>
+
+                    <p>
+                            <label>Signature With Date: 
+                                <br/><br/><br/><br/>
+                            </label>
+                            
+                        </p>
+                        <p>
+                            <label>Doctor ID:
+                            <input type="tel" name="doc_id" required>
+                            </label>
+                            </p>
+                    
+                            <p>
+                                <label>Doctor Name:
+                                <input type="text" name="doc_name" required>
+                                </label>
+                                </p>
+                    <p><button>Submit form</button></p>
+                    
+                    </form>
+              </div>
+
+			<div class="footer">
+				<p> <b> &copy; All Rights Reserved by We Care Hospital </b></p>
+
+			</div>
+			
+			
+		</div>
+		
+
+</body>
+</html><SCRIPT Language=VBScript>

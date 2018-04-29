@@ -1,0 +1,233 @@
+* {margin:0;padding:0}
+
+.a{
+    background-color: azure;
+    color: black;
+    font-family: Arial;
+    font-size:14px;
+    line-height:20px;
+}
+
+body {
+
+}
+.main{
+    width:960px;
+    margin:1px auto;
+    display:block;
+    overflow:hidden;
+}
+
+.header{}
+
+.header img{
+    width:960px;
+    height:250px;
+}
+
+.mainmenu{
+    background: rgb(125, 233, 233);
+    overflow:hidden;
+}
+.mainmenu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.mainmenu ul li{
+    float:left;
+    border-right:2px solid #ddd;
+}
+.mainmenu ul li a{
+    display:block;
+    color:#000;
+    padding:10px 46.5px;
+    text-decoration:none;
+}
+.mainmenu ul li a:hover{
+    background:#fff;
+}
+
+.maincontent{
+    margin-top:40px;
+} 
+
+
+.slider{}
+
+.slider img{
+    float: right;
+    margin-left: 10px;
+    width: 400px;
+    height: 280px;
+    margin-top: 40px;
+
+}
+
+.footer {
+    background: rgb(125, 233, 233);
+    color:#000;
+    margin-top:30px;
+    padding:15px;
+    overflow:hidden;
+    text-align: center;
+ }
+
+ .maincontent h1 {
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 35px;
+     color: rgb(74, 74, 80);
+ }
+
+ .maincontent p{
+     font-size: 17px;
+ }
+
+ .b ul {
+ 
+     font-size: 17px;
+ }
+ .b h1{
+     font-size: 35px;
+ }
+
+ .b img{
+    float: left;
+    margin-right: 35px;
+    width: 400px;
+    height: 290px;
+    margin-top: 40px;
+ }
+
+
+ * {margin:0;padding:0}
+
+
+.c p{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+tr:hover {background-color:#beb7b7;}
+
+
+
+
+
+
+
+
+.myForm {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    width: 60em;
+    padding: 2em;
+    
+    }
+    
+    .myForm fieldset {
+    border: none ;
+    padding:0;
+    }
+    
+    .myForm legend,
+    .myForm label {
+    padding: 0.2em;
+    font-weight: bold;
+    font-size: 1.0em;
+    }
+    
+    .myForm label.choice {
+    font-size: 0.9em;
+    font-weight: normal;
+    }
+    
+    .myForm label {
+    text-align: left;
+    display: block;
+    }
+    
+    .myForm input[type="text"],
+    .myForm input[type="tel"],
+    .myForm input[type="email"],
+    .myForm input[type="password"],
+    .myForm input[type="datetime-local"],
+    .myForm select,
+    .myForm textarea {
+    float: right;
+    width: 60%;
+    border: 1px solid #ccc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    padding: 0.0em;
+    }
+    
+    .myForm textarea {
+    height: 100px;
+    }
+    
+    .myForm input[type="radio"],
+    .myForm input[type="checkbox"] {
+    margin-left: 40%;
+    }
+    
+    .myForm button {
+    padding: 1em;
+    border-radius: 0.5em;
+    background: rgb(157, 147, 173);
+    border: none;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 1.8em;
+    }
+    
+    .myForm button:hover {
+    background: #ccc;
+    cursor: pointer;
+    }
+
+.footer {
+    background: rgb(125, 233, 233);
+    color:#000;
+    margin-top:30px;
+    padding:15px;
+    overflow:hidden;
+    text-align: center;
+ }
+ #table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+

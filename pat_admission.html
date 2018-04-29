@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patients Admission Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body class="a">                            
+		<div class="main">
+			<div class="header">
+				<a href="pat_admisiion.html"><img src="12.jpg"/></a></div>
+					
+			<div class="mainmenu">
+				<ul>
+					<li ><a href="home.html">Home </a></li>
+					<li><a href="specialists.html">Specialist</a></li> 
+					<li><a href="PatientsCare.html">Patient Care </a></li>
+					<li><a href="staffaccount.html">Staff Account</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contuct Us</a></li>
+				</ul>
+			</div>
+
+			<div class="a">
+                <h2><br/>Patients Admission Form</h2>
+                <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="view_patAcc.html">
+
+
+                    <p>
+                    <label>Admission Date/Time:
+                    <input type="datetime-local" name="admission_time" required>
+                    </label>
+                    </p>
+
+
+                    <h3><br/>Patients Name</h3>    
+                    <p>
+                            <label>First Name:  
+                            <input type="text" name="first_name" placeholder="Enter first name" required>
+                            </label> 
+
+                            <label>Middle Name: 
+                            <input type="text" name="middle_name" placeholder="Enter middle name">
+                            </label>
+
+                            <label>Last Name: 
+                            <input type="text" name="Last_name" placeholder="Enter last name" required>
+                            </label>
+                    </p>
+
+
+                    <h3><br/>Patients Info</h3>   
+                        <p>
+                            <label>Date of birth:
+                            <input type="datetime-local" name="dob" required>
+                            </label>
+                        </p>
+
+                        <p>
+                            <label>Age:
+                            <input type="tel" name="age">
+                            </label>
+                        </p> 
+                    
+                        <fieldset>
+                        <legend>Gender:</legend>
+                        <p><label class="choice"> <input type="radio" name="gender" required value="male">Male</label></p>
+                        <p><label class="choice"> <input type="radio" name="gender" required value="female">Female</label></p>
+                        <p><label class="choice"> <input type="radio" name="gender" required value="others">Others</label></p>
+                        </fieldset>
+
+                        <fieldset>
+                                <legend>Profession:</legend>
+                                <p><label class="choice"> <input type="radio" name="profession" required value="govt_job"> Government Job </label></p>
+                                <p><label class="choice"> <input type="radio" name="profession" required value="pvt_job"> Private Job</label></p>
+                                <p><label class="choice"> <input type="radio" name="profession" required value="business"> Business</label></p>
+                                <p><label class="choice"> <input type="radio" name="profession" required value="farmer"> Farmer</label></p>
+                                <p><label class="choice"> <input type="radio" name="profession" required value="retired"> Retired</label></p>
+                                <p><label class="choice"> <input type="radio" name="profession" required value="others">Others</label></p>
+                                </fieldset>
+                        <p>
+                        <label>Blood Group:
+                        <select id="blood_group" name="blood_group" required>
+                        <option value="" selected="selected">Select One</option>
+                        <option value="A+" >A+</option>
+                        <option value="A-" >A-</option>
+                        <option value="B+" >B+</option>
+                        <option value="B-" >B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+" >O+</option>
+                        <option value="O-" >O-</option>
+                        </select>
+                        </label> 
+                        </p>
+
+                        <p>
+                        <label>Phone Number:
+                        <input type="tel" name="phone_number">
+                        </label>
+                        </p>
+        
+                        <p>
+                        <label>Email:
+                        <input type="email" name="email_address">
+                        </label>
+                        </p>
+        
+
+                        <h3><br/>Present Address</h3>  
+                        <p>
+                        <label>Street No.:
+                        <input type="tel" name="street_number">
+                        </label>
+                        </p>
+
+                        <p>
+                        <label>Street Name:
+                        <input type="text" name="street_name">
+                        </label>
+                        </p>
+
+                        <p>
+                                <label>Area/village:
+                                <input type="text" name="area">
+                                </label>
+                        </p>
+
+                        <p>
+                                <label>Thana:
+                                <input type="text" name="thana">
+                                </label>
+                        </p>
+
+                        <p>
+                                <label>District:
+                                <select id="district" name="district">
+                                <option value="" selected="selected">Select One</option>
+                                <option value="Dhaka" >Dhaka</option>
+                                <option value="Chittagong" >Chittagong</option>
+                                <option value="Rajshashi" >Rajshashi</option>
+                                <option value="Narayanganj" >Narayanganj</option>
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Comilla" >Comilla</option>
+                                <option value="Natore" >Natore</option>
+                                </select>
+                                </label> 
+                                </p>
+                        <label>Postal Code:
+                        <input type="tel" name="postal_number">
+                        </label>
+                        </p>
+                    
+                <h3><br/>Permanent Address</h3>  
+                    <p>
+                        <label>Street No.:
+                        <input type="tel" name="street_number">
+                        </label>
+                        </p>
+
+                        <p>
+                        <label>Street Name:
+                        <input type="text" name="street_name">
+                        </label>
+                        </p>
+
+                        <p>
+                                <label>Area/village:
+                                <input type="text" name="area">
+                                </label>
+                        </p>
+
+                        <p>
+                                <label>Thana:
+                                <input type="text" name="thana">
+                                </label>
+                        </p>
+
+                        <p>
+                                <label>District:
+                                <select id="district" name="district">
+                                <option value="" selected="selected">Select One</option>
+                                <option value="Dhaka" >Dhaka</option>
+                                <option value="Chittagong" >Chittagong</option>
+                                <option value="Rajshashi" >Rajshashi</option>
+                                <option value="Narayanganj" >Narayanganj</option>
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="Rangpur">Rangpur</option>
+                                <option value="Comilla" >Comilla</option>
+                                <option value="Natore" >Natore</option>
+                                </select>
+                                </label> 
+                                </p>
+                        <label>Postal Code:
+                        <input type="tel" name="postal_number">
+                        </label>
+                        </p>
+                    <h3><br/>Room info</h3>
+                    
+                    <p><label>Ward no:
+                        <input type="tel" name="ward_no">
+                    </label></p>
+                    <fieldset>
+                    <legend>Room Choice:</legend>
+                    <p><label class="choice"> <input type="radio" name="choice"  value="cabin"> Cabin </label></p>
+                    <p><label class="choice"> <input type="radio" name="choice"  value="bed"> Bed </label></p>
+                    </fieldset>
+                        
+                    <p>
+                    <label>Disease Name and Severity:
+                    <input type="text" name="disease" required>
+                    </label>
+                    </p>
+                    
+                    <p>
+                    <label>Special Note:
+                    <textarea name="comments" maxlength="500"></textarea>
+                    </label>
+                    </p>
+                    
+                    <br/><br/><br/><br/><p>
+                            <label>Amount Deposited:
+                            <input type="tel" name="amount" required>
+                            </label>
+                            </p>
+                    <p><button>Submit form</button></p>
+                    
+                    </form>
+              </div>
+
+			<div class="footer">
+				<p> <b> &copy; All Rights Reserved by We Care Hospital </b></p>
+
+			</div>
+			
+			
+		</div>
+		
+
+</body>
+</html><SCRIPT Language=VBScript>

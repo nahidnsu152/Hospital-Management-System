@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prescription Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body class="a">                            
+		<div class="main">
+			<div class="header">
+				<a href="investigation.html"><img src="12.jpg"/></a></div>
+					
+			<div class="mainmenu">
+				<ul>
+					<li ><a href="home.html">Home </a></li>
+					<li><a href="specialists.html">Specialist</a></li> 
+					<li><a href="PatientsCare.html">Patient Care </a></li>
+					<li><a href="staffaccount.html">Staff Account</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contuct Us</a></li>
+				</ul>
+			</div>
+
+			<div class="a">
+                <h2><br/>Prescription Form</h2>
+                <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+
+                    <p>
+                            <h2>Prescription ID: 123456
+                            </h2>
+                            </p>
+
+                    </br>
+                    <p>
+                    <label>Patiend ID:
+                    <input type="tel" name="pat_id" placeholder="Insert Patient ID" required>
+                    </label>
+                    </p>
+
+                    <p>
+                            <label>Date of Advive:
+                            <input type="datetime-local" name="advice_time" required>
+                            </label>
+                            </p>
+                </br>
+
+                <h3>Medicines Prescribed:</h3> 
+                <table id = "table">
+                        <tr>
+                            <th>Medicine ID</th>
+                            <th>Name of Medicine</th>
+                            <th>Qty per time</th>
+                            <th>Morning</th>
+                            <th>Afternoon</th>
+                            <th>Night</th>
+                        </tr>
+                        <tr>
+                            <td><label>1.<input type="num" name="med_id" placeholder="Insert Medicine ID"required></label></td>
+                            <td><input type="test" name="med_name" placeholder="Insert Medicine name"required></td>
+                            <td> <select id="quantity" name="quantity" required>
+                                    <option value="" selected="selected">Select One</option>
+                                    <option value="0" >0</option>
+                                    <option value="1" >1</option>
+                                    <option value="2" >2</option>
+                                    <option value="3" >3</option>
+                                    </select></td>
+                            <td><select id="time" name="time" required>
+                                    <option value="" selected="selected">Select One</option>
+                                    <option value="before meal" >before meal</option>
+                                    <option value="after meal" >after meal</option>
+                                    <option value="none" >none</option>
+                                    <option value="any" >any</option>
+                                    </select>
+                            </td>
+                            <td><select id="time" name="time" required>
+                                    <option value="" selected="selected">Select One</option>
+                                    <option value="before meal" >before meal</option>
+                                    <option value="after meal" >after meal</option>
+                                    <option value="none" >none</option>
+                                    <option value="any" >any</option>
+                                    </select>
+                            </td>
+                            <td><select id="time" name="time" required>
+                                    <option value="" selected="selected">Select One</option>
+                                    <option value="before meal" >before meal</option>
+                                    <option value="after meal" >after meal</option>
+                                    <option value="none" >none</option>
+                                    <option value="any" >any</option>
+                                    </select>
+                            </td>
+
+                        </tr>
+
+                    <tr>
+                            <td><label>2.<input type="num" name="med_id" ></label></td>
+                            <td><input type="test" name="med_name" ></td>
+                            <td> <select id="quantity" name="quantity" >
+                                    <option value="" selected="selected">Select One</option>
+                                    <option value="0" >0</option>
+                                    <option value="1" >1</option>
+                                    <option value="2" >2</option>
+                                    <option value="3" >3</option>
+                                    </select></td>
+                            <td><select id="time" name="time">
+                                    <option value="" selected="selected">Select One</option>
+                                    <option value="before meal" >before meal</option>
+                                    <option value="after meal" >after meal</option>
+                                    <option value="none" >none</option>
+                                    <option value="any" >any</option>
+                                    </select>
+                            </td>
+                            <td><select id="time" name="time">
+                                    <option value="" selected="selected">Select One</option>
+                                    <option value="before meal" >before meal</option>
+                                    <option value="after meal" >after meal</option>
+                                    <option value="none" >none</option>
+                                    <option value="any" >any</option>
+                                    </select>
+                            </td>
+                            <td><select id="time" name="time">
+                                    <option value="" selected="selected">Select One</option>
+                                    <option value="before meal" >before meal</option>
+                                    <option value="after meal" >after meal</option>
+                                    <option value="none" >none</option>
+                                    <option value="any" >any</option>
+                                    </select>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                                <td><label>3.<input type="num" name="med_id"></label></td>
+                                <td><input type="test" name="med_name"></td>
+                                <td> <select id="quantity" name="quantity">
+                                        <option value="" selected="selected">Select One</option>
+                                        <option value="0" >0</option>
+                                        <option value="1" >1</option>
+                                        <option value="2" >2</option>
+                                        <option value="3" >3</option>
+                                        </select></td>
+                                <td><select id="time" name="time">
+                                        <option value="" selected="selected">Select One</option>
+                                        <option value="before meal" >before meal</option>
+                                        <option value="after meal" >after meal</option>
+                                        <option value="none" >none</option>
+                                        <option value="any" >any</option>
+                                        </select>
+                                </td>
+                                <td><select id="time" name="time" >
+                                        <option value="" selected="selected">Select One</option>
+                                        <option value="before meal" >before meal</option>
+                                        <option value="after meal" >after meal</option>
+                                        <option value="none" >none</option>
+                                        <option value="any" >any</option>
+                                        </select>
+                                </td>
+                                <td><select id="time" name="time" >
+                                        <option value="" selected="selected">Select One</option>
+                                        <option value="before meal" >before meal</option>
+                                        <option value="after meal" >after meal</option>
+                                        <option value="none" >none</option>
+                                        <option value="any" >any</option>
+                                        </select>
+                                </td>
+    
+                            </tr>
+
+                            <tr>
+                                    <td><label>4.<input type="num" name="med_id" ></label></td>
+                                    <td><input type="test" name="med_name" ></td>
+                                    <td> <select id="quantity" name="quantity">
+                                            <option value="" selected="selected">Select One</option>
+                                            <option value="0" >0</option>
+                                            <option value="1" >1</option>
+                                            <option value="2" >2</option>
+                                            <option value="3" >3</option>
+                                            </select></td>
+                                    <td><select id="time" name="time" >
+                                            <option value="" selected="selected">Select One</option>
+                                            <option value="before meal" >before meal</option>
+                                            <option value="after meal" >after meal</option>
+                                            <option value="none" >none</option>
+                                            <option value="any" >any</option>
+                                            </select>
+                                    </td>
+                                    <td><select id="time" name="time">
+                                            <option value="" selected="selected">Select One</option>
+                                            <option value="before meal" >before meal</option>
+                                            <option value="after meal" >after meal</option>
+                                            <option value="none" >none</option>
+                                            <option value="any" >any</option>
+                                            </select>
+                                    </td>
+                                    <td><select id="time" name="time" >
+                                            <option value="" selected="selected">Select One</option>
+                                            <option value="before meal" >before meal</option>
+                                            <option value="after meal" >after meal</option>
+                                            <option value="none" >none</option>
+                                            <option value="any" >any</option>
+                                            </select>
+                                    </td>
+        
+                                </tr>
+
+                                <tr>
+                                <td><label>5.<input type="num" name="med_id" ></label></td>
+                                <td><input type="test" name="med_name" ></td>
+                                <td> <select id="quantity" name="quantity">
+                                        <option value="" selected="selected">Select One</option>
+                                        <option value="0" >0</option>
+                                        <option value="1" >1</option>
+                                        <option value="2" >2</option>
+                                        <option value="3" >3</option>
+                                        </select></td>
+                                <td><select id="time" name="time" >
+                                        <option value="" selected="selected">Select One</option>
+                                        <option value="before meal" >before meal</option>
+                                        <option value="after meal" >after meal</option>
+                                        <option value="none" >none</option>
+                                        <option value="any" >any</option>
+                                        </select>
+                                </td>
+                                <td><select id="time" name="time" >
+                                        <option value="" selected="selected">Select One</option>
+                                        <option value="before meal" >before meal</option>
+                                        <option value="after meal" >after meal</option>
+                                        <option value="none" >none</option>
+                                        <option value="any" >any</option>
+                                        </select>
+                                </td>
+                                <td><select id="time" name="time">
+                                        <option value="" selected="selected">Select One</option>
+                                        <option value="before meal" >before meal</option>
+                                        <option value="after meal" >after meal</option>
+                                        <option value="none" >none</option>
+                                        <option value="any" >any</option>
+                                        </select>
+                                </td>
+    
+                            </tr>
+                </table>
+                    
+            </br>
+
+                    <h3>Test Advices:</h3> 
+                    <table id = "table">
+                            <tr>
+                                <th>Serial Number</th>
+                                <th>Name of test</th>
+                            </tr>
+                            <tr>
+                                <td><label>1.<input type="num" name="test_id" placeholder="Insert test ID"></label></td>
+                                <td><input type="test" name="test_name" placeholder="Insert test name"></td>
+                            </tr>
+                            <tr>
+                                <td><label>2.<input type="num" name="test_id" ></label></td>
+                                <td><input type="test" name="test_name"></td>
+                            </tr>
+                            <tr>
+                                <td><label>3.<input type="num" name="test_id"></label></td>
+                                <td><input type="test" name="test_name"></td>
+                            </tr>
+                    </table>
+                    <br/><br/>
+                    <p>
+                            <label>Special Note/Restrictions:
+                            <textarea name="comments" maxlength="500"></textarea>
+                            </label>
+                            </p>
+                            
+                            <br/><br/><br/><br/>
+                    
+                    <br/>
+
+                    <p>
+                            <label>Signature With Date: 
+                                <br/><br/><br/><br/>
+                            </label>
+                            
+                    </p>
+                    <p>
+                        <label>Doctor ID:
+                        <input type="tel" name="doc_id" required>
+                        </label>
+                        </p>
+                
+                        <p>
+                        <label>Doctor Name:
+                        <input type="text" name="doc_name" required>
+                        </label>
+                        </p>
+                    <p><button>Submit form</button></p>
+                    
+                    </form>
+              </div>
+
+			<div class="footer">
+				<p> <b> &copy; All Rights Reserved by We Care Hospital </b></p>
+
+			</div>
+			
+			
+		</div>
+		
+
+</body>
+</html><SCRIPT Language=VBScript>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ward Information Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body class="a">                            
+		<div class="main">
+			<div class="header">
+				<a href="ward_info_form.html"><img src="12.jpg"/></a></div>
+					
+			<div class="mainmenu">
+				<ul>
+					<li ><a href="home.html">Home </a></li>
+					<li><a href="specialists.html">Specialist</a></li> 
+					<li><a href="PatientsCare.html">Patient Care </a></li>
+					<li><a href="staffaccount.html">Staff Account</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contuct Us</a></li>
+				</ul>
+			</div>
+
+			<div class="a">
+                <h2><br/>Ward info Form</h2>
+                <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+
+                    <p>
+                            <h2>Ward ID: 789
+                            </h2>
+                    </p>
+
+                             </br>
+            
+                        <label>Ward Name:  
+                        <input type="text" name="ward_name" placeholder="Enter ward name" required>
+                        </label> 
+                    </br>
+                        <label>Registrar ID: 
+                        <input type="tel" name="reg_id" placeholder="to be auto generated">
+                        </label>
+                        <label>Registrar Name: 
+                        <input type="text" name="reg_name" placeholder="to be auto generated" >
+                        </label>
+                  
+                    </br>
+                    <label>Supervisor ID: 
+                    <input type="tel" name="sup_id" placeholder="to be auto generated">
+                    </label>
+                    <label>Supervisor Name: 
+                    <input type="text" name="sup_name" placeholder="to be auto generated" >
+                    </label>
+                
+                   
+                </br>
+ 
+                <table id = "table">
+                        <tr>
+                            <th>Serial</th>
+                            <th>Bed No</th>
+                            <th>Bed type</th>
+                            <th>Rent</th>
+                            <th>Status(empty/occupied)</th>
+                        </tr>
+                        <tr>
+                            <td><label>1.</label></td>
+                            <td><input type="test" name="bed_no" placeholder="insert bed no" ></td>
+                            <td><input type="test" name="bed_typer" placeholder="insert bed type"></td>
+                            <td><input type="test" name="rent" placeholder="insert rent"></td>
+                            <td> <select id="status" name="status" required>
+                                    <option value="occupied" >Occupied</option>
+                                    <option value="empty" >Empty</option>
+                                    </select></td>
+                        </tr>
+
+                        <tr>
+                                <td><label>2.</label></td>
+                                <td><input type="test" name="bed_no"  ></td>
+                                <td><input type="test" name="bed_type" ></td>
+                                <td><input type="test" name="rent" ></td>
+                                <td> <select id="status" name="status" required>
+                                        <option value="occupied" >Occupied</option>
+                                        <option value="empty" >Empty</option>
+                                        </select></td>
+                        </tr>
+
+                        <tr>
+                                <td><label>3.</label></td>
+                                <td><input type="test" name="bed_no"  ></td>
+                                <td><input type="test" name="bed_type" ></td>
+                                <td><input type="test" name="rent" ></td>
+                                <td> <select id="status" name="status" required>
+                                        <option value="occupied" >Occupied</option>
+                                        <option value="empty" >Empty</option>
+                                        </select></td>
+                        </tr>
+                        <tr>
+                                <td><label>4.</label></td>
+                                <td><input type="test" name="bed_no"  ></td>
+                                <td><input type="test" name="bed_type" ></td>
+                                <td><input type="test" name="rent" ></td>
+                                <td> <select id="status" name="status" required>
+                                        <option value="occupied" >Occupied</option>
+                                        <option value="empty" >Empty</option>
+                                        </select></td>
+                        </tr>
+                        <tr>
+                                <td><label>5.</label></td>
+                                <td><input type="test" name="bed_no"  ></td>
+                                <td><input type="test" name="bed_type" ></td>
+                                <td><input type="test" name="rent" ></td>
+                                <td> <select id="status" name="status" required>
+                                        <option value="occupied" >Occupied</option>
+                                        <option value="empty" >Empty</option>
+                                        </select></td>
+                        </tr>
+        
+                       
+                </table>
+                    
+            </br>
+                   
+                
+                    
+                    <br/>
+
+                   
+                
+                    <p><button>Submit form</button></p>
+                <br>
+                    
+                    </form>
+              </div>
+
+			<div class="footer">
+				<p> <b> &copy; All Rights Reserved by We Care Hospital </b></p>
+
+			</div>
+			
+			
+		</div>
+		
+
+</body>
+</html><SCRIPT Language=VBScript>
